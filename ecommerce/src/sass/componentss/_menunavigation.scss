@@ -1,0 +1,53 @@
+.menuNavigation {
+    position: fixed;
+    z-index: 20;
+    height: 100vh;
+    top: 0;
+    left: -35rem;
+    width: 18rem;
+    background-color: $white;
+    box-shadow: 0 0 10px rgba($black, $alpha: 0.3);
+    padding: 2rem;
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+    @media screen and (min-width:
+    $layout-breakpoint-xsmall) {
+        width: 23rem;
+    }
+
+
+    &.open {
+        left: 0;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .minim {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+
+        .menuX {
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $black;
+            border-radius: 50%;
+            cursor: pointer;
+
+            svg {
+                color: $white;
+                font-size: 0.75rem;
+                font-weight: 1rem;
+            }
+        }
+
+    }
+}

@@ -16,6 +16,10 @@
         justify-content:
         space-between;
 
+        @media screen and (min-width: $layout-breakpoint-small) {
+            padding: 2rem;
+        }
+
         .menuSearch{
             display: flex;
             align-items: center;

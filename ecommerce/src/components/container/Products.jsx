@@ -8,7 +8,7 @@ Products({img,price,name}) {
         <div className="nameAndPrice">
             <div className="name">{name}
         </div>
-        <div>${price}</div>
+        <div className="price">${price}</div>
     </div>
     <div className="btns">
         <button>Add To Cart</button>

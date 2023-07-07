@@ -63,18 +63,40 @@
         }
 
 
-        img{
+        .product_img{
             height: 10rem;
             width: 15rem;
             object-fit: cover;
             margin-bottom: 2rem;
         }
+
+
+        .nameAndPrice{
+            text-align: center;
+
+            .name {
+                font-size: 0.95rem;
+                font-weight: 500;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .price{
+                margin-top: 0.5rem;
+                font-size: 1rem;
+                font-weight: 500;
+                font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            }
+            
+        }
+
+        
             &:hover {
                 .btns{
                     height: 100%;
                     opacity: 1;
                 }
         }
+
         
 
         .btns{

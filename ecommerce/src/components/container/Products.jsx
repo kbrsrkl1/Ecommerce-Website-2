@@ -12,7 +12,7 @@ Products({img,price,name}) {
     </div>
     <div className="btns">
         <button>Add To Cart</button>
-        <HiOutlineHeart/>
+        <HiOutlineHeart className="heart"/>
     </div>
     </div>
     );

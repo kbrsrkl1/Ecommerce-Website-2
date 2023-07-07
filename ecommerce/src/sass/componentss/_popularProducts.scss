@@ -89,6 +89,26 @@
             background-color: rgba($color: $white, $alpha: 0.75);
             opacity: 0;
             transition: all 0.3s ease;
+
+            button {
+                background-color: $white;
+                outline: none;
+                border: none;
+                padding: 0.45rem;
+                border-right: 1px solid $black;
+                font-family: "Poppins";
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .heart{
+                padding: 0.35rem;
+                cursor: pointer;
+                font-size: 1.4rem;
+                background-color: $white;
+            }
         }
     }
 }

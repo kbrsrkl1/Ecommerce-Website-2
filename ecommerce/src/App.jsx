@@ -1,4 +1,4 @@
-import { Home, Navbar, PopularProducts, Shopping } from "./components";
+import {buyOnline ,Home, Navbar, PopularProducts, Shopping } from "./components";
 import "./sass/main.scss"
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
             <Home />
             <PopularProducts />
             <Shopping />
+            <buyOnline />
         </>
     );
 }

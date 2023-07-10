@@ -11,6 +11,15 @@ export default function BuyOnline() {
                         {data.title}
                     </div>
                     <p>{data.text}</p>
+                    <a href=""
+                    className="btnText">
+                        {data.btnText}
+                    </a>
+                    <div className="payment_images">
+                        {data.img?.map((img, index) => (
+                            <img src={img} alt="" key={index} className="payment_img"/>
+                        ))}
+                    </div>
                 </div>
             ))}
         </div>

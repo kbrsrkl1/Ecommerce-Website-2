@@ -3,5 +3,6 @@ import Home from "./container/home";
 import PopularProducts from "./container/PopularProducts"
 import Shopping from "./container/Shopping";
 import BuyOnline from "./container/BuyOnline";
-export { Navbar, Home , PopularProducts, Shopping, BuyOnline};
+import Reviews from "./container/Reviews";
+export { Navbar, Home , PopularProducts, Shopping, BuyOnline, Reviews};
 

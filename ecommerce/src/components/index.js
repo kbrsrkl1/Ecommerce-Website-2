@@ -4,5 +4,6 @@ import PopularProducts from "./container/PopularProducts"
 import Shopping from "./container/Shopping";
 import BuyOnline from "./container/BuyOnline";
 import Reviews from "./container/Reviews";
-export { Navbar, Home , PopularProducts, Shopping, BuyOnline, Reviews};
+import Contact from "./container/Contact";
+export { Navbar, Home , PopularProducts, Shopping, BuyOnline, Reviews, Contact};
 
